@@ -5,30 +5,31 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section className=" bg-linear-to-br from-gray-700 via-gray-700 to-gray-900 flex items-center justify-center px-4 py-10 overflow-hidden relative">
-      <div className="text-center text-white max-w-4xl mx-auto px-6">
-        <div className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Gain Any Skill, <br /> Anytime, Anywhere.
+    <section className=" bg-gray-900 flex items-center justify-center px-4 py-10 overflow-hidden relative">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_right,var(--tw-gradient-stops))] from-blue-200/30 to-transparent" />
+
+      <div className="text-center text-gray-900 max-w-5xl mx-auto px-6 relative z-10">
+        <div className="space-y-8">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight bg-linear-to-r from-gray-700 via-blue-900 to-indigo-900 bg-clip-text text-transparent drop-shadow-lg">
+            Gain Any Skill, <br /> With Skill Bridge.
           </h1>
-          <p className="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto leading-relaxed">
-            Connect with verified tutors for 1-on-1 lessons. Elevate your skills
-            in coding, languages, music, and more with personalized guidance.
+
+          <p className="text-md md:text-xl lg:text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed opacity-95 font-medium">
+            we believe that learning to code should be accessible to everyone,
+            regardless of their location, background, or financial situation.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Link href="/signup">
-              <Button
-                size="lg"
-                className="text-lg px-8 py-6 font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
-              >
+              <Button className="text-lg px-10 py-7 font-bold shadow-2xl hover:shadow-3xl bg-linear-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white border-0 h-16 transition-all duration-300">
                 Get Started Free
               </Button>
             </Link>
+
             <Link href="/tutors">
               <Button
                 variant="outline"
-                size="lg"
-                className="text-lg px-8 py-6 border-2 text-gray-800 font-semibold hover:bg-white/20 transition-all duration-300"
+                className="text-lg px-10 py-7 font-bold border-2 border-gray-300 text-gray-800 hover:bg-gray-50 hover:border-gray-400 hover:text-gray-900 h-16 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Search a Tutor
               </Button>
