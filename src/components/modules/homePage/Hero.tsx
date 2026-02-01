@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div className="text-center text-gray-900 max-w-5xl mx-auto px-6 relative z-10">
         <div className="space-y-8">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight bg-linear-to-r from-gray-700 via-blue-900 to-indigo-900 bg-clip-text text-transparent drop-shadow-lg">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight bg-linear-to-r from-gray-300 via-green-400 to-green-400 bg-clip-text text-transparent drop-shadow-lg">
             Gain Any Skill, <br /> With Skill Bridge.
           </h1>
 

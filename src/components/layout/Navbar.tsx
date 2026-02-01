@@ -29,7 +29,7 @@ interface MenuItem {
   items?: MenuItem[];
 }
 
-interface Navbar1Props {
+interface NavbarProps {
   className?: string;
   logo?: {
     url: string;
@@ -54,7 +54,7 @@ interface Navbar1Props {
 const Navbar = ({
   logo = {
     url: "/",
-    src: "logo",
+    src: "logo.png",
     alt: "logo",
     title: "Skill Bridge",
   },
@@ -70,7 +70,7 @@ const Navbar = ({
     signup: { title: "Sign up", url: "/signup" },
   },
   className,
-}: Navbar1Props) => {
+}: NavbarProps) => {
   return (
     <section
       className={cn(

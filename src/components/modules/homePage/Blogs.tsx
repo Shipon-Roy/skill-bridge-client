@@ -34,7 +34,7 @@ export default function Blogs() {
       <Container>
         {/* Header */}
         <div className="text-center mb-20" data-aos="fade-up">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-500 via-blue-900 to-indigo-900 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-300 via-green-400 to-green-400 bg-clip-text text-transparent">
             Latest Blogs
           </h1>
           <p className="text-xl text-gray-400 mt-5 max-w-2xl mx-auto leading-relaxed">

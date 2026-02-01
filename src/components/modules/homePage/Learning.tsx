@@ -24,7 +24,7 @@ export default function Learning() {
     <div className="py-20 bg-gray-900">
       <Container>
         <div className="text-center mb-20" data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-500 via-blue-900 to-indigo-900 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-300 via-green-400 to-green-400 bg-clip-text text-transparent">
             More Than Just A Learning Platform
           </h2>
           <p className="text-xl text-gray-400 mt-5 max-w-2xl mx-auto leading-relaxed">

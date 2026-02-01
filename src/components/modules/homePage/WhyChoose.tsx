@@ -34,7 +34,7 @@ export default function WhyChoose() {
           data-aos="fade-up"
           className="text-center mb-20 space-y-6 max-w-3xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-500 via-blue-900 to-indigo-900 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight bg-linear-to-r from-gray-300 via-green-400 to-green-400 bg-clip-text text-transparent">
             Why Choose SkillBridge?
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
@@ -65,10 +65,10 @@ export default function WhyChoose() {
 
                 {/* Content */}
                 <div className="flex-1 flex flex-col justify-between">
-                  <h3 className="text-2xl font-bold text-gray-100 group-hover:text-blue-600 transition-colors mb-4">
+                  <h3 className="text-2xl font-bold text-gray-50 group-hover:text-green-400 transition-colors mb-4">
                     {title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed text-lg flex-1">
+                  <p className="text-gray-400 leading-relaxed text-lg flex-1">
                     {description}
                   </p>
                 </div>
