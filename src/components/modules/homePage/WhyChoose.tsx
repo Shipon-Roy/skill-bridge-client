@@ -55,7 +55,7 @@ export default function WhyChoose() {
               data-aos-delay="300"
               data-aos-duration="800"
               key={id}
-              className="group border-2  shadow-lg shadow-gray-800/50 hover:shadow-2xl hover:shadow-blue-500/20 bg-gray-900 backdrop-blur-sm hover:bg-gray-950 transition-all duration-500 hover:-translate-y-3 h-full border-green-400"
+              className="group border-2  shadow-lg shadow-gray-800/50 hover:shadow-2xl hover:shadow-blue-500/20 bg-gray-900 backdrop-blur-sm hover:bg-gray-950 transition-all duration-500 hover:-translate-y-3 h-full border-green-900"
             >
               <CardContent className="p-8 h-full flex flex-col">
                 {/* Icon */}

@@ -22,7 +22,7 @@ export function TutorCard({ tutor }: TutorCardProps) {
       transition={{ duration: 0.3 }}
       whileHover={{ y: -4 }}
     >
-      <Card className="hover:shadow-2xl transition-all duration-300 border-green-200 overflow-hidden group h-full bg-gray-900">
+      <Card className="hover:shadow-2xl transition-all duration-300 border-green-700 overflow-hidden group h-full bg-gray-900">
         <CardContent className="p-3 sm:p-4 md:p-5 lg:p-6">
           <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-2 sm:mb-3 md:mb-4">
             <div className="relative shrink-0">

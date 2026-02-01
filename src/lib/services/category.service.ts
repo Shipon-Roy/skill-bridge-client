@@ -15,12 +15,12 @@ interface GetBlogParams {
 }
 
 export const tutorService = {
-  getAllTutors: async function (
+  getAllCategories: async function (
     params?: GetBlogParams,
     options?: ServiceOption,
   ) {
     try {
-      const url = new URL(`${API_URL}/api/tutors`);
+      const url = new URL(`${API_URL}/category`);
 
       if (params) {
         Object.entries(params).forEach(([key, value]) => {
@@ -40,28 +40,13 @@ export const tutorService = {
         config.next = { revalidate: options.revalidate };
       }
 
-      config.next = { ...config.next, tags: ["tutors"] };
+      config.next = { ...config.next, tags: ["category"] };
 
       const res = await fetch(url.toString(), config);
 
       const data = await res.json();
 
-      //   if (data.success) {
-      //     return { data: data, error: null };
-      //   }
-
       return { data: data.data, error: null };
-    } catch (err) {
-      return { data: null, error: { message: "somthing went wrong!" } };
-    }
-  },
-  getTutor: async function (id: string) {
-    try {
-      const res = await fetch(`${API_URL}/api/tutors/${id}`);
-
-      const data = await res.json();
-
-      return { data: data, error: null };
     } catch (err) {
       return { data: null, error: { message: "somthing went wrong!" } };
     }
